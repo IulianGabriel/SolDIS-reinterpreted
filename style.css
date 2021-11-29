@@ -127,7 +127,7 @@ span{
 
 }
 .main{
-    height: 500px;
+    height: 450px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -135,7 +135,7 @@ span{
     align-items: flex-start;
 }
 .main-title{
-    width: 600px;
+    width: 550px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -228,15 +228,16 @@ span{
     transform: rotate(45deg);
     display: flex;
     justify-content: center;
-    height: 250px;
-    margin-top: 20px;
-    border: 1px solid rgba(160,160,160, 0.5)
+    height: 230px;
+    margin-top: 80px;
+    border: 1px solid rgba(160,160,160, 0.5);
 }
 .market-leaders{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-right: 50px;
+    margin-top: 70px;
 }
 .market-leaders h5{
     margin-bottom: 20px;
@@ -261,6 +262,7 @@ span{
     flex-direction: column;
     justify-content: center;
     padding-left: 90px;
+    margin-top: 70px;
 }
 .promoting-brands h5{
     margin-bottom: 20px;
@@ -304,4 +306,10 @@ footer{
 h6{
     padding-left: 5px;
     color: rgba(255,255,255, 0.7);
+    margin-top: 20px;
+}
+.Hero-img img{
+    position: absolute;
+    left: 63%;
+    bottom: 33%;
 }
