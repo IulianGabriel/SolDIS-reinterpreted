@@ -116,7 +116,7 @@ span{
     transition: 0.5s all;
 }
 .contact-nav i:hover{
-    transform: rotate(180deg);
+    transform: rotate(90deg);
 }
 #nav-hr{
     border: none;
@@ -165,6 +165,7 @@ span{
     font-weight: 500;
     padding-left: 80px;
     letter-spacing: 2px;
+    
 }
 #main-p{
     width: 470px;
@@ -187,6 +188,9 @@ span{
     border: 1px solid rgba(255,255,255, 0.5);
     padding-left: 15px;
     color: white;
+}
+.main-form input:hover{
+    border-color: rgba(255,255,255, 0.8);
 }
 .main-form button{
     width:100px;
@@ -288,3 +292,10 @@ span{
     bottom: 42%;
     left: 68%;
 } */
+#main-arrow{
+    transition: 1s all;
+}
+#main-arrow:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+}
