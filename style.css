@@ -9,6 +9,8 @@ html, body{
     height: 100vh;
     font-family: "Raleway", sans-serif;
     background-image: linear-gradient(to right top, #000033, #070641, #120d61, #1b116e, #23167b, #361e88, #482696, #592fa3, #763eb4, #924ec5, #ad5ed6, #c96fe7);
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 a{
     text-decoration: none;
